@@ -20,8 +20,13 @@ def mostra_descricao(video):
     descricao = video.description
     print(f'Descricao: {descricao}')
 
+def faz_download(video):
+    ybvideo = video.streams.get_highest_resolution()
+    ybvideo.download()
+
 link = guarda_link(input('Digite o endereço: '))
 mostra_titulo(link)
 mostra_visualizacoes(link)
 mostra_duracao(link)
 mostra_descricao(link)
+faz_download(link)
