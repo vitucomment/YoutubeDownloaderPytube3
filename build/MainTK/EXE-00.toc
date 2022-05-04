@@ -3009,7 +3009,7 @@
  [],
  False,
  False,
- 1651687094,
+ 1651687376,
  [('run.exe',
    'C:\\Users\\victo\\PycharmProjects\\YoutubeDownloaderPytube3\\venv\\NewProject\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])
